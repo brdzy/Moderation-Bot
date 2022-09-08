@@ -1,13 +1,6 @@
 from datetime import datetime, timezone, timedelta
 import logging
-from multiprocessing import context
 import os
-from sqlite3 import Timestamp
-from tkinter import Button, dnd
-from tkinter.tix import ButtonBox
-from tracemalloc import start
-from typing import Any, Sequence
-from urllib.request import urlopen
 import hikari
 from hikari import ActivityType, presences, ActivityTimestamps, ActivitySecret, ActivityAssets, ActivityFlag, ActivityParty, Activity, RichActivity, Status
 import lightbulb
